@@ -1,19 +1,21 @@
 {
-  "description": "Cineflix v1.2.6 — OTA channel, UI and AI improvements.",
+  "description": "Cineflix v1.2.7 — OTA reliability and update status fixes.",
   "image": "",
   "changelog": [
     {
       "title": "What's New",
       "items": [
-        "Public OTA update channel",
-        "Shraddha AI improvements",
-        "Settings UI polish"
+        "Version 1.2.7",
+        "More reliable Update available status on public OTA channel",
+        "Update Settings refreshes automatically"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Update available status for older installs"
+        "System update opens in-app screen instead of external site",
+        "Newer release is detected even when APK asset naming varies",
+        "Public channel: vighnya777/Cineflix-updates"
       ]
     }
   ]
