@@ -1,0 +1,20 @@
+{
+  "description": "Cineflix v1.2.6 — OTA channel, UI and AI improvements.",
+  "image": "",
+  "changelog": [
+    {
+      "title": "What's New",
+      "items": [
+        "Public OTA update channel",
+        "Shraddha AI improvements",
+        "Settings UI polish"
+      ]
+    },
+    {
+      "title": "Fixes",
+      "items": [
+        "Update available status for older installs"
+      ]
+    }
+  ]
+}
