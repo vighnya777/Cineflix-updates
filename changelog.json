@@ -1,21 +1,40 @@
 {
-  "description": "Cineflix v1.2.7 — OTA reliability and update status fixes.",
+  "description": "Cineflix v1.4.0",
   "image": "",
   "changelog": [
     {
       "title": "What's New",
       "items": [
-        "Version 1.2.7",
-        "More reliable Update available status on public OTA channel",
-        "Update Settings refreshes automatically"
+        "✨ feat(ota): AI-polish commit notes and publish changelog.json",
+        "✨ feat(eq): add AutoEq profile browser",
+        "♻️ refactor(settings): update ported preference keys",
+        "✨ feat(player): add clear queue action with undo",
+        "🎨 refactor(ui): refresh dialogs and menus with Material You",
+        "✨ feat(settings): add custom font selection",
+        "✨ feat(stats): add listening summary refinements",
+        "✨ feat(ambient): overhaul ambient mode",
+        "✨ Keep the Shraddha system prompt valid and include the built-in web_search guidance without breaking Kotlin parsing",
+        "✨ Add the missing web_search case to playback tool authorization and allow it as a safe read-only tool during chat",
+        "✨ feat: Shraddha built-in web search and login-personalized May 6 celebration",
+        "✨ feat: Shraddha built-in web search and login-personalized May 6 celebration",
+        "✨ feat: add listening vibe summary and enable seasonal UI for verification"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "System update opens in-app screen instead of external site",
-        "Newer release is detected even when APK asset naming varies",
-        "Public channel: vighnya777/Cineflix-updates"
+        "🔧 fix: upstream sync branch checkout + Listen Together Protobuf default",
+        "🔧 fix: register detailed_listening_history route and bump to 1.4.0",
+        "🔧 fix: resolve coroutineScope scope and missing ic_calendar_month drawable",
+        "🔧 fix: some known bugs",
+        "🔧 Fix missing AnimatedRadioButton component used by FontSelectionScreen",
+        "🔧 fix(account): persist avatar URL after sign in",
+        "🔧 fix(shraddha): control commands, web/news search, provider retries; sync branch fix; login loading UI",
+        "🔧 fix(ci): import ShraddhaLanguageCues in classifier; paperclip scanner rule; add missing-import guard",
+        "🔧 fix(shraddha): empty Nemotron replies, Marathi play commands, tool-JSON leak; new composer UI",
+        "🔧 fix: repair ShraddhaPlaybackFallback structure for release compile",
+        "🔧 fix: resolve release compile and upstream sync CI failures",
+        "🔧 Fix malformed Shraddha system prompt and add web_search guidance to the prompt string"
       ]
     }
   ]
