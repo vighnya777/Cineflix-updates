@@ -5,36 +5,41 @@
     {
       "title": "What's New",
       "items": [
-        "✨ feat(ota): AI-polish commit notes and publish changelog.json",
-        "✨ feat(eq): add AutoEq profile browser",
-        "♻️ refactor(settings): update ported preference keys",
-        "✨ feat(player): add clear queue action with undo",
-        "🎨 refactor(ui): refresh dialogs and menus with Material You",
-        "✨ feat(settings): add custom font selection",
-        "✨ feat(stats): add listening summary refinements",
-        "✨ feat(ambient): overhaul ambient mode",
-        "✨ Keep the Shraddha system prompt valid and include the built-in web_search guidance without breaking Kotlin parsing",
-        "✨ Add the missing web_search case to playback tool authorization and allow it as a safe read-only tool during chat",
-        "✨ feat: Shraddha built-in web search and login-personalized May 6 celebration",
-        "✨ feat: Shraddha built-in web search and login-personalized May 6 celebration",
-        "✨ feat: add listening vibe summary and enable seasonal UI for verification"
+        "✨ feat(lyrics): use the metadata cleaner for lyrics search queries",
+        "✨ feat(playback): add dynamic LRU cache evictor that keeps track openings",
+        "✨ feat(widgets): add Modern, Slim, Square, Showcase, Vintage, Vinyl and Adaptive widgets",
+        "✨ feat(audio): add spatial audio stereo widener to the playback chain",
+        "✨ feat(usb): add USB DAC bit-perfect output with JNI driver",
+        "✨ feat(metadata): add title and artist cleaner as its own module",
+        "✨ feat(generate): add Generate taste mix from listening history",
+        "✨ feat(content): block artists and hide their content",
+        "✨ feat(haptics): add granular haptic feedback with intensity",
+        "✨ feat(recommendations): add Spotify recommendation provider",
+        "✨ feat(extensions): add Extension Sources for third-party content plugins",
+        "✨ feat(ota): AI-polish commit notes and publish changelog.json"
       ]
     },
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix(di): bind GenerationStatus to RealGenerationStatus",
+        "🔧 fix(kotlin): resolve compile errors from the Echo port",
+        "🔧 fix(res): complete widget colors, strings and style references",
+        "🔧 fix(res): add all widget colors used by the widget drawables and layouts",
+        "🔧 fix(res): add widget colors used by the widget drawables",
+        "🔧 fix(res): remove duplicate spatial audio strings",
+        "🔧 fix(ui): dismiss keyboard on search submit",
         "🔧 fix: upstream sync branch checkout + Listen Together Protobuf default",
         "🔧 fix: register detailed_listening_history route and bump to 1.4.0",
         "🔧 fix: resolve coroutineScope scope and missing ic_calendar_month drawable",
-        "🔧 fix: some known bugs",
-        "🔧 Fix missing AnimatedRadioButton component used by FontSelectionScreen",
-        "🔧 fix(account): persist avatar URL after sign in",
-        "🔧 fix(shraddha): control commands, web/news search, provider retries; sync branch fix; login loading UI",
-        "🔧 fix(ci): import ShraddhaLanguageCues in classifier; paperclip scanner rule; add missing-import guard",
-        "🔧 fix(shraddha): empty Nemotron replies, Marathi play commands, tool-JSON leak; new composer UI",
-        "🔧 fix: repair ShraddhaPlaybackFallback structure for release compile",
-        "🔧 fix: resolve release compile and upstream sync CI failures",
-        "🔧 Fix malformed Shraddha system prompt and add web_search guidance to the prompt string"
+        "🔧 fix: some known bugs"
+      ]
+    },
+    {
+      "title": "Chore",
+      "items": [
+        "📦 build(metadata): make metadata a pure Kotlin JVM module",
+        "📦 build: revert compileSdk to 36, runner lacks SDK 37"
       ]
     }
   ]
