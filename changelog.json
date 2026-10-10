@@ -1,10 +1,14 @@
 {
-  "description": "Cineflix v1.4.0",
+  "description": "Cineflix v1.4.1",
   "image": "",
   "changelog": [
     {
       "title": "What's New",
       "items": [
+        "♻️ refactor(widgets,updater): rename Echo-named widget manager and notification provider",
+        "✨ feat(player): add varispeed, linking pitch to playback speed",
+        "✨ feat(extensions): add addon enable switch and https:// for addon URLs without a scheme",
+        "• style(artist): make the Subscribe button a standalone pill",
         "✨ feat(lyrics): use the metadata cleaner for lyrics search queries",
         "✨ feat(playback): add dynamic LRU cache evictor that keeps track openings",
         "✨ feat(widgets): add Modern, Slim, Square, Showcase, Vintage, Vinyl and Adaptive widgets",
@@ -12,32 +16,28 @@
         "✨ feat(usb): add USB DAC bit-perfect output with JNI driver",
         "✨ feat(metadata): add title and artist cleaner as its own module",
         "✨ feat(generate): add Generate taste mix from listening history",
-        "✨ feat(content): block artists and hide their content",
-        "✨ feat(haptics): add granular haptic feedback with intensity",
-        "✨ feat(recommendations): add Spotify recommendation provider",
-        "✨ feat(extensions): add Extension Sources for third-party content plugins",
-        "✨ feat(ota): AI-polish commit notes and publish changelog.json"
+        "✨ feat(content): block artists and hide their content"
       ]
     },
     {
       "title": "Fixes",
       "items": [
+        "🔧 feat(player,ui): playback recovery fix, varispeed, addon toggle, subscribe pill, carousel, share",
+        "🔧 fix(share): wait for the player connection before playing a shared link",
+        "🔧 fix(sync): skip commits already in Cineflix and cap AI time per run",
         "🔧 fix(di): bind GenerationStatus to RealGenerationStatus",
         "🔧 fix(kotlin): resolve compile errors from the Echo port",
         "🔧 fix(res): complete widget colors, strings and style references",
         "🔧 fix(res): add all widget colors used by the widget drawables and layouts",
         "🔧 fix(res): add widget colors used by the widget drawables",
-        "🔧 fix(res): remove duplicate spatial audio strings",
-        "🔧 fix(ui): dismiss keyboard on search submit",
-        "🔧 fix: upstream sync branch checkout + Listen Together Protobuf default",
-        "🔧 fix: register detailed_listening_history route and bump to 1.4.0",
-        "🔧 fix: resolve coroutineScope scope and missing ic_calendar_month drawable",
-        "🔧 fix: some known bugs"
+        "🔧 fix(res): remove duplicate spatial audio strings"
       ]
     },
     {
       "title": "Chore",
       "items": [
+        "🎨 chore(res): Cineflix branding in resources, notification icon rename, widget colours",
+        "📦 chore: bump version to 1.4.1 (versionCode 162)",
         "📦 build(metadata): make metadata a pure Kotlin JVM module",
         "📦 build: revert compileSdk to 36, runner lacks SDK 37"
       ]
