@@ -1,10 +1,11 @@
 {
-  "description": "Cineflix v1.4.1",
+  "description": "Cineflix v1.4.2",
   "image": "",
   "changelog": [
     {
       "title": "What's New",
       "items": [
+        "✨ feat(icons): add Craft and Sadie launcher icons",
         "♻️ refactor(widgets,updater): rename Echo-named widget manager and notification provider",
         "✨ feat(player): add varispeed, linking pitch to playback speed",
         "✨ feat(extensions): add addon enable switch and https:// for addon URLs without a scheme",
@@ -12,16 +13,14 @@
         "✨ feat(lyrics): use the metadata cleaner for lyrics search queries",
         "✨ feat(playback): add dynamic LRU cache evictor that keeps track openings",
         "✨ feat(widgets): add Modern, Slim, Square, Showcase, Vintage, Vinyl and Adaptive widgets",
-        "✨ feat(audio): add spatial audio stereo widener to the playback chain",
-        "✨ feat(usb): add USB DAC bit-perfect output with JNI driver",
-        "✨ feat(metadata): add title and artist cleaner as its own module",
-        "✨ feat(generate): add Generate taste mix from listening history",
-        "✨ feat(content): block artists and hide their content"
+        "✨ feat(audio): add spatial audio stereo widener to the playback chain"
       ]
     },
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix(res): add missing launcher icons and drawable images",
+        "🔧 fix(res): add missing TV banner and rename quick settings icon",
         "🔧 feat(player,ui): playback recovery fix, varispeed, addon toggle, subscribe pill, carousel, share",
         "🔧 fix(share): wait for the player connection before playing a shared link",
         "🔧 fix(sync): skip commits already in Cineflix and cap AI time per run",
@@ -36,6 +35,7 @@
     {
       "title": "Chore",
       "items": [
+        "📦 chore: bump version to 1.4.2 (versionCode 163)",
         "🎨 chore(res): Cineflix branding in resources, notification icon rename, widget colours",
         "📦 chore: bump version to 1.4.1 (versionCode 162)",
         "📦 build(metadata): make metadata a pure Kotlin JVM module",
