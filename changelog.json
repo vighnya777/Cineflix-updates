@@ -9,11 +9,7 @@
         "♻️ refactor(widgets,updater): rename Echo-named widget manager and notification provider",
         "✨ feat(player): add varispeed, linking pitch to playback speed",
         "✨ feat(extensions): add addon enable switch and https:// for addon URLs without a scheme",
-        "• style(artist): make the Subscribe button a standalone pill",
-        "✨ feat(lyrics): use the metadata cleaner for lyrics search queries",
-        "✨ feat(playback): add dynamic LRU cache evictor that keeps track openings",
-        "✨ feat(widgets): add Modern, Slim, Square, Showcase, Vintage, Vinyl and Adaptive widgets",
-        "✨ feat(audio): add spatial audio stereo widener to the playback chain"
+        "• style(artist): make the Subscribe button a standalone pill"
       ]
     },
     {
@@ -33,8 +29,17 @@
       ]
     },
     {
+      "title": "Docs",
+      "items": [
+        "✨ Update README with new branding and content changes"
+      ]
+    },
+    {
       "title": "Chore",
       "items": [
+        "📦 chore: remove remaining Echo-named files from the repository",
+        "♻️ refactor: rename Echo-named resources, packages and strings to Cineflix names",
+        "✨ Rename Echo-new.png to Cineflix-new.png",
         "📦 chore: bump version to 1.4.2 (versionCode 163)",
         "🎨 chore(res): Cineflix branding in resources, notification icon rename, widget colours",
         "📦 chore: bump version to 1.4.1 (versionCode 162)",
