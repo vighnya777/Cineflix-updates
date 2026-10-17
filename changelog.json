@@ -18,6 +18,7 @@
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix(player): keep playing after the app is closed by default",
         "🔧 fix: compile error in the database wrapper, clean artist names, car-connect autoplay, addon track ids; version 1.4.4",
         "🔧 fix(build): resolve compile errors in the home view model, database wrapper, music service and Music Flow repository",
         "🔧 fix(musicflow): restore the trailing comma in the repository's filter arguments",
@@ -43,8 +44,7 @@
         "♻️ refactor: rename Echo-named resources, packages and strings to Cineflix names",
         "✨ Rename Echo-new.png to Cineflix-new.png",
         "📦 chore: bump version to 1.4.2 (versionCode 163)",
-        "🎨 chore(res): Cineflix branding in resources, notification icon rename, widget colours",
-        "📦 chore: bump version to 1.4.1 (versionCode 162)"
+        "🎨 chore(res): Cineflix branding in resources, notification icon rename, widget colours"
       ]
     }
   ]
