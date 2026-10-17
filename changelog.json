@@ -1,31 +1,31 @@
 {
-  "description": "Cineflix v1.4.2",
+  "description": "Cineflix v1.4.4",
   "image": "",
   "changelog": [
     {
       "title": "What's New",
       "items": [
+        "✨ feat(playback): expose the active queue, pause-at-end and queue snapshots for Music Flow",
+        "✨ feat(musicflow): add the queue that feeds the playback service from the Music Flow session",
+        "✨ feat(musicflow): add Music Flow preferences and the candidate repository",
+        "✨ feat(musicflow): add the Music Flow core models, ranking, coordinator and session",
+        "✨ feat(playback): add export task queue with duplicate suppression",
+        "✨ feat(utils): add hero carousel, quick pick and playlist navigation helpers",
         "✨ feat(icons): add Craft and Sadie launcher icons",
-        "♻️ refactor(widgets,updater): rename Echo-named widget manager and notification provider",
-        "✨ feat(player): add varispeed, linking pitch to playback speed",
-        "✨ feat(extensions): add addon enable switch and https:// for addon URLs without a scheme",
-        "• style(artist): make the Subscribe button a standalone pill"
+        "♻️ refactor(widgets,updater): rename Echo-named widget manager and notification provider"
       ]
     },
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix: compile error in the database wrapper, clean artist names, car-connect autoplay, addon track ids; version 1.4.4",
+        "🔧 fix(build): resolve compile errors in the home view model, database wrapper, music service and Music Flow repository",
+        "🔧 fix(musicflow): restore the trailing comma in the repository's filter arguments",
+        "🔧 fix: stop the background service after task clear, stable download order, and block unsafe AI endpoints",
+        "🔧 fix(home): apply blocked artist and explicit filters to quick picks; safe playlist routes",
         "🔧 fix(res): add missing launcher icons and drawable images",
         "🔧 fix(res): add missing TV banner and rename quick settings icon",
-        "🔧 feat(player,ui): playback recovery fix, varispeed, addon toggle, subscribe pill, carousel, share",
-        "🔧 fix(share): wait for the player connection before playing a shared link",
-        "🔧 fix(sync): skip commits already in Cineflix and cap AI time per run",
-        "🔧 fix(di): bind GenerationStatus to RealGenerationStatus",
-        "🔧 fix(kotlin): resolve compile errors from the Echo port",
-        "🔧 fix(res): complete widget colors, strings and style references",
-        "🔧 fix(res): add all widget colors used by the widget drawables and layouts",
-        "🔧 fix(res): add widget colors used by the widget drawables",
-        "🔧 fix(res): remove duplicate spatial audio strings"
+        "🔧 feat(player,ui): playback recovery fix, varispeed, addon toggle, subscribe pill, carousel, share"
       ]
     },
     {
@@ -37,14 +37,14 @@
     {
       "title": "Chore",
       "items": [
+        "✨ feat(musicflow): bind the feed source for dependency injection; bump version to 1.4.3",
+        "✨ feat(home): build the home carousel from recent, library and quick picks",
         "📦 chore: remove remaining Echo-named files from the repository",
         "♻️ refactor: rename Echo-named resources, packages and strings to Cineflix names",
         "✨ Rename Echo-new.png to Cineflix-new.png",
         "📦 chore: bump version to 1.4.2 (versionCode 163)",
         "🎨 chore(res): Cineflix branding in resources, notification icon rename, widget colours",
-        "📦 chore: bump version to 1.4.1 (versionCode 162)",
-        "📦 build(metadata): make metadata a pure Kotlin JVM module",
-        "📦 build: revert compileSdk to 36, runner lacks SDK 37"
+        "📦 chore: bump version to 1.4.1 (versionCode 162)"
       ]
     }
   ]
