@@ -1,5 +1,5 @@
 {
-  "description": "Cineflix v1.4.4",
+  "description": "Cineflix v1.4.8",
   "image": "",
   "changelog": [
     {
@@ -11,13 +11,13 @@
         "✨ feat(musicflow): add the Music Flow core models, ranking, coordinator and session",
         "✨ feat(playback): add export task queue with duplicate suppression",
         "✨ feat(utils): add hero carousel, quick pick and playlist navigation helpers",
-        "✨ feat(icons): add Craft and Sadie launcher icons",
-        "♻️ refactor(widgets,updater): rename Echo-named widget manager and notification provider"
+        "✨ feat(icons): add Craft and Sadie launcher icons"
       ]
     },
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix(auto): keep covers in memory so the first metadata update already carries them",
         "🔧 fix(player): keep playing after the app is closed by default",
         "🔧 fix: compile error in the database wrapper, clean artist names, car-connect autoplay, addon track ids; version 1.4.4",
         "🔧 fix(build): resolve compile errors in the home view model, database wrapper, music service and Music Flow repository",
@@ -38,13 +38,13 @@
     {
       "title": "Chore",
       "items": [
+        "📦 chore: bump version to 1.4.8 (versionCode 169)",
         "✨ feat(musicflow): bind the feed source for dependency injection; bump version to 1.4.3",
         "✨ feat(home): build the home carousel from recent, library and quick picks",
         "📦 chore: remove remaining Echo-named files from the repository",
         "♻️ refactor: rename Echo-named resources, packages and strings to Cineflix names",
         "✨ Rename Echo-new.png to Cineflix-new.png",
-        "📦 chore: bump version to 1.4.2 (versionCode 163)",
-        "🎨 chore(res): Cineflix branding in resources, notification icon rename, widget colours"
+        "📦 chore: bump version to 1.4.2 (versionCode 163)"
       ]
     }
   ]
