@@ -8,7 +8,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&pause=1100&color=A78BFA&center=true&vCenter=true&width=650&lines=Discover+music.+Feel+every+beat.;Meet+Shraddha+AI%2C+your+music+companion.;Your+music+experience%2C+under+your+control." alt="Animated Cineflix tagline"/>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&pause=1100&color=A78BFA&center=true&vCenter=true&width=650&lines=Discover+music.+Feel+every+beat.;Meet+Shraddha+AI%2C+your+music+companion.;Your+music+experience%2C+under+your+control." width="100%" alt="Animated Cineflix tagline"/>
 
 </div>
 
@@ -20,10 +20,6 @@ Cineflix brings music discovery, immersive playback, synchronized lyrics, offlin
 
 ## 🎧 Features
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### 🎵 Music Discovery & Streaming
 - Ad-free music streaming
 - Explore a wide music catalogue
@@ -31,9 +27,6 @@ Cineflix brings music discovery, immersive playback, synchronized lyrics, offlin
 - Browse charts, moods, and genres
 - Discover personalized recommendations
 - Import playlists from Spotify
-
-</td>
-<td width="50%" valign="top">
 
 ### 🎚️ Immersive Music Player
 - Background playback
@@ -44,11 +37,6 @@ Cineflix brings music discovery, immersive playback, synchronized lyrics, offlin
 - Pause when device audio is muted
 - Resume when Bluetooth audio reconnects
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 📝 Synchronized Lyrics
 - Real-time synchronized lyrics
 - Word-by-word highlighting
@@ -57,9 +45,6 @@ Cineflix brings music discovery, immersive playback, synchronized lyrics, offlin
 - Translate lyrics into other languages
 - Follow along while your music plays
 
-</td>
-<td width="50%" valign="top">
-
 ### 📥 Offline & Local Music
 - Download supported music for offline listening
 - Dedicated download manager
@@ -67,20 +52,12 @@ Cineflix brings music discovery, immersive playback, synchronized lyrics, offlin
 - Access your downloaded and local music
 - Enjoy your saved music without streaming
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 🧠 Smart Music Intelligence
 - **Cineflix Find** — recognize music playing around you
 - **Cineflix Brain** — analyze listening momentum and suggest tracks for your queue
 - Personalized recommendations
 - Explore music by mood and genre
 - Discover charts and trending music
-
-</td>
-<td width="50%" valign="top">
 
 ### 🎨 Personalization
 - Clean, intuitive interface
@@ -91,15 +68,11 @@ Cineflix brings music discovery, immersive playback, synchronized lyrics, offlin
 - Filter video songs and YouTube Shorts
 - Search settings quickly
 
-</td>
-</tr>
-</table>
-
 ---
 
 ## 💜 Meet Shraddha AI
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1300&color=C4B5FD&width=650&lines=Not+just+a+chatbot.+Your+music+companion.;Ask.+Discover.+Play.+Control.;Talk+to+your+music+player+naturally." alt="Shraddha AI animated introduction"/>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1300&color=C4B5FD&width=650&lines=Not+just+a+chatbot.+Your+music+companion.;Ask.+Discover.+Play.+Control.;Talk+to+your+music+player+naturally." width="100%" alt="Shraddha AI animated introduction"/>
 
 **Shraddha is Cineflix's built-in AI assistant — combining natural conversation, music intelligence, and real playback controls.** Ask naturally instead of navigating every music action manually.
 
@@ -126,16 +99,29 @@ Cineflix brings music discovery, immersive playback, synchronized lyrics, offlin
 
 ### 💬 Try saying
 
-| Say this to Shraddha | What happens |
-|---|---|
-| “Play Kesariya” | Finds and plays the requested song |
-| “Pause the music” | Pauses current playback |
-| “Play the next song” | Skips to the next track |
-| “Volume full” | Raises media volume to maximum |
-| “Turn on shuffle” | Toggles shuffle playback |
-| “Add this song to queue” | Adds a track to the queue |
-| “What is playing now?” | Shows current playback information |
-| “Recommend calm songs” | Suggests music for your mood |
+**“Play Kesariya”**  
+Finds and plays the requested song.
+
+**“Pause the music”**  
+Pauses current playback.
+
+**“Play the next song”**  
+Skips to the next track.
+
+**“Volume full”**  
+Raises media volume to maximum.
+
+**“Turn on shuffle”**  
+Toggles shuffle playback.
+
+**“Add this song to queue”**  
+Adds a track to the queue.
+
+**“What is playing now?”**  
+Shows current playback information.
+
+**“Recommend calm songs”**  
+Suggests music for your mood.
 
 <sub>Music actions depend on the supported Cineflix controls and available music sources. Shraddha does not claim to control every app screen or device setting.</sub>
 
@@ -148,6 +134,8 @@ Cineflix brings music discovery, immersive playback, synchronized lyrics, offlin
 - **Last.fm** — scrobble listening activity when configured.
 - **Discord Rich Presence** — share supported listening activity.
 - **Set as Ringtone** — use supported tracks as your device ringtone.
+
+---
 
 <div align="center">
 
