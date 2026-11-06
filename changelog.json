@@ -5,17 +5,18 @@
     {
       "title": "What's New",
       "items": [
-        "✨ feat(playback): expose the active queue, pause-at-end and queue snapshots for Music Flow",
-        "✨ feat(musicflow): add the queue that feeds the playback service from the Music Flow session",
-        "✨ feat(musicflow): add Music Flow preferences and the candidate repository",
-        "✨ feat(musicflow): add the Music Flow core models, ranking, coordinator and session",
-        "✨ feat(playback): add export task queue with duplicate suppression",
-        "✨ feat(utils): add hero carousel, quick pick and playlist navigation helpers"
+        "✨ feat(dsp): add DSP core processing module",
+        "✨ feat(domain): add shared domain module from Echo Music",
+        "✨ feat(playback): expose the active queue, pause-at-end and queue snapshots for Music Flow"
       ]
     },
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix(playlist): show top playlist download state with the shared helper",
+        "🔧 fix(playlist): show auto playlist download state with the shared helper",
+        "🔧 fix(playlist): show online playlist download state with the shared helper",
+        "🔧 fix(playlist): show local playlist download state with the shared helper",
         "🔧 fix(album): show downloading while any track of the album is in progress",
         "🔧 fix(downloads): keep download state in sync and record completed downloads with their finish time",
         "🔧 fix(settings): open integrations from search and settings without a crash",
@@ -29,17 +30,16 @@
         "🔧 fix: compile error in the database wrapper, clean artist names, car-connect autoplay, addon track ids; version 1.4.4",
         "🔧 fix(build): resolve compile errors in the home view model, database wrapper, music service and Music Flow repository",
         "🔧 fix(musicflow): restore the trailing comma in the repository's filter arguments",
-        "🔧 fix: stop the background service after task clear, stable download order, and block unsafe AI endpoints",
-        "🔧 fix(home): apply blocked artist and explicit filters to quick picks; safe playlist routes"
+        "🔧 fix: stop the background service after task clear, stable download order, and block unsafe AI endpoints"
       ]
     },
     {
       "title": "Chore",
       "items": [
+        "📦 build: register domain and DSP modules",
+        "✨ feat(audio): add audio DSP module and dependencies",
         "📦 chore: bump version to 1.4.8 (versionCode 169)",
-        "✨ feat(musicflow): bind the feed source for dependency injection; bump version to 1.4.3",
-        "✨ feat(home): build the home carousel from recent, library and quick picks",
-        "📦 chore: remove remaining Echo-named files from the repository"
+        "✨ feat(musicflow): bind the feed source for dependency injection; bump version to 1.4.3"
       ]
     }
   ]
