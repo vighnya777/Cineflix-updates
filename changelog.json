@@ -10,23 +10,25 @@
         "✨ feat(musicflow): add Music Flow preferences and the candidate repository",
         "✨ feat(musicflow): add the Music Flow core models, ranking, coordinator and session",
         "✨ feat(playback): add export task queue with duplicate suppression",
-        "✨ feat(utils): add hero carousel, quick pick and playlist navigation helpers",
-        "✨ feat(icons): add Craft and Sadie launcher icons"
+        "✨ feat(utils): add hero carousel, quick pick and playlist navigation helpers"
       ]
     },
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix(settings): open integrations from search and settings without a crash",
+        "🔧 fix(scrobble): scrobble queue and shuffle tracks and local media",
+        "🔧 fix(spotify): allow only web pages in the Spotify import web view",
+        "🔧 fix(login): block file and content access in the sign-in web view",
+        "🔧 fix(export): run FFmpeg with an argument list instead of a shell string",
+        "🔧 fix(links): encode deep link ids before they become navigation routes",
         "🔧 fix(auto): keep covers in memory so the first metadata update already carries them",
         "🔧 fix(player): keep playing after the app is closed by default",
         "🔧 fix: compile error in the database wrapper, clean artist names, car-connect autoplay, addon track ids; version 1.4.4",
         "🔧 fix(build): resolve compile errors in the home view model, database wrapper, music service and Music Flow repository",
         "🔧 fix(musicflow): restore the trailing comma in the repository's filter arguments",
         "🔧 fix: stop the background service after task clear, stable download order, and block unsafe AI endpoints",
-        "🔧 fix(home): apply blocked artist and explicit filters to quick picks; safe playlist routes",
-        "🔧 fix(res): add missing launcher icons and drawable images",
-        "🔧 fix(res): add missing TV banner and rename quick settings icon",
-        "🔧 feat(player,ui): playback recovery fix, varispeed, addon toggle, subscribe pill, carousel, share"
+        "🔧 fix(home): apply blocked artist and explicit filters to quick picks; safe playlist routes"
       ]
     },
     {
@@ -42,9 +44,7 @@
         "✨ feat(musicflow): bind the feed source for dependency injection; bump version to 1.4.3",
         "✨ feat(home): build the home carousel from recent, library and quick picks",
         "📦 chore: remove remaining Echo-named files from the repository",
-        "♻️ refactor: rename Echo-named resources, packages and strings to Cineflix names",
-        "✨ Rename Echo-new.png to Cineflix-new.png",
-        "📦 chore: bump version to 1.4.2 (versionCode 163)"
+        "♻️ refactor: rename Echo-named resources, packages and strings to Cineflix names"
       ]
     }
   ]
