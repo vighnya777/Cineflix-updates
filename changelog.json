@@ -16,6 +16,7 @@
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix(album): show downloading while any track of the album is in progress",
         "🔧 fix(downloads): keep download state in sync and record completed downloads with their finish time",
         "🔧 fix(settings): open integrations from search and settings without a crash",
         "🔧 fix(scrobble): scrobble queue and shuffle tracks and local media",
@@ -38,8 +39,7 @@
         "📦 chore: bump version to 1.4.8 (versionCode 169)",
         "✨ feat(musicflow): bind the feed source for dependency injection; bump version to 1.4.3",
         "✨ feat(home): build the home carousel from recent, library and quick picks",
-        "📦 chore: remove remaining Echo-named files from the repository",
-        "♻️ refactor: rename Echo-named resources, packages and strings to Cineflix names"
+        "📦 chore: remove remaining Echo-named files from the repository"
       ]
     }
   ]
