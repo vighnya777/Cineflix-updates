@@ -5,9 +5,10 @@
     {
       "title": "What's New",
       "items": [
+        "✨ feat(db): add hideFromQuickPicks and migrate database 46 to 48",
+        "✨ feat(app): integrate Jellyfin and Navidrome support",
         "✨ feat(dsp): add DSP core processing module",
-        "✨ feat(domain): add shared domain module from Echo Music",
-        "✨ feat(playback): expose the active queue, pause-at-end and queue snapshots for Music Flow"
+        "✨ feat(domain): add shared domain module from Echo Music"
       ]
     },
     {
@@ -38,8 +39,7 @@
       "items": [
         "📦 build: register domain and DSP modules",
         "✨ feat(audio): add audio DSP module and dependencies",
-        "📦 chore: bump version to 1.4.8 (versionCode 169)",
-        "✨ feat(musicflow): bind the feed source for dependency injection; bump version to 1.4.3"
+        "📦 chore: bump version to 1.4.8 (versionCode 169)"
       ]
     }
   ]
