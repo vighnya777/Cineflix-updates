@@ -16,6 +16,7 @@
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix(scrobble): scrobble queue and shuffle tracks and local media",
         "🔧 fix(spotify): allow only web pages in the Spotify import web view",
         "🔧 fix(login): block file and content access in the sign-in web view",
         "🔧 fix(export): run FFmpeg with an argument list instead of a shell string",
@@ -26,8 +27,7 @@
         "🔧 fix(build): resolve compile errors in the home view model, database wrapper, music service and Music Flow repository",
         "🔧 fix(musicflow): restore the trailing comma in the repository's filter arguments",
         "🔧 fix: stop the background service after task clear, stable download order, and block unsafe AI endpoints",
-        "🔧 fix(home): apply blocked artist and explicit filters to quick picks; safe playlist routes",
-        "🔧 fix(res): add missing launcher icons and drawable images"
+        "🔧 fix(home): apply blocked artist and explicit filters to quick picks; safe playlist routes"
       ]
     },
     {
