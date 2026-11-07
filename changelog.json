@@ -5,6 +5,7 @@
     {
       "title": "What's New",
       "items": [
+        "✨ Shraddha: show attached images and send them to vision models",
         "✨ feat: integrate Shraddha backend routing",
         "✨ test(ai): add Shraddha routing and backend config tests",
         "✨ feat(settings): add Shraddha AI routing settings",
@@ -29,8 +30,7 @@
         "🔧 fix(playlist): show top playlist download state with the shared helper",
         "🔧 fix(playlist): show auto playlist download state with the shared helper",
         "🔧 fix(playlist): show online playlist download state with the shared helper",
-        "🔧 fix(playlist): show local playlist download state with the shared helper",
-        "🔧 fix(album): show downloading while any track of the album is in progress"
+        "🔧 fix(playlist): show local playlist download state with the shared helper"
       ]
     },
     {
