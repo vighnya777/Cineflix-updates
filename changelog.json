@@ -5,6 +5,8 @@
     {
       "title": "What's New",
       "items": [
+        "✨ Integrate Shraddha Flask backend: backend-first routing with custom API fallback",
+        "✨ Integrate Shraddha Flask backend: backend-first routing with custom API fallback",
         "✨ feat(db): add hideFromQuickPicks and migrate database 46 to 48",
         "✨ feat(app): integrate Jellyfin and Navidrome support",
         "✨ feat(dsp): add DSP core processing module",
@@ -28,15 +30,13 @@
         "🔧 fix(links): encode deep link ids before they become navigation routes",
         "🔧 fix(auto): keep covers in memory so the first metadata update already carries them",
         "🔧 fix(player): keep playing after the app is closed by default",
-        "🔧 fix: compile error in the database wrapper, clean artist names, car-connect autoplay, addon track ids; version 1.4.4",
-        "🔧 fix(build): resolve compile errors in the home view model, database wrapper, music service and Music Flow repository",
-        "🔧 fix(musicflow): restore the trailing comma in the repository's filter arguments",
-        "🔧 fix: stop the background service after task clear, stable download order, and block unsafe AI endpoints"
+        "🔧 fix: compile error in the database wrapper, clean artist names, car-connect autoplay, addon track ids; version 1.4.4"
       ]
     },
     {
       "title": "Chore",
       "items": [
+        "✨ Add missing seek button string resources for release build",
         "📦 build: register domain and DSP modules",
         "✨ feat(audio): add audio DSP module and dependencies",
         "📦 chore: bump version to 1.4.8 (versionCode 169)"
