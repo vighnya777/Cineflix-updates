@@ -5,6 +5,14 @@
     {
       "title": "What's New",
       "items": [
+        "✨ feat: integrate Shraddha backend routing",
+        "✨ test(ai): add Shraddha routing and backend config tests",
+        "✨ feat(settings): add Shraddha AI routing settings",
+        "✨ feat(ai): connect Shraddha chat to the router",
+        "✨ feat(ai): add Shraddha backend settings loader",
+        "✨ feat(ai): route Shraddha requests backend-first with custom API fallback",
+        "✨ feat(ai): add Shraddha backend config and URL validation",
+        "✨ feat(core): add Shraddha routing preference keys",
         "✨ Integrate Shraddha Flask backend: backend-first routing with custom API fallback",
         "✨ Integrate Shraddha Flask backend: backend-first routing with custom API fallback",
         "✨ feat(db): add hideFromQuickPicks and migrate database 46 to 48",
@@ -16,30 +24,27 @@
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix(security): exclude encrypted Shraddha token store from backups",
         "🔧 fix(playlist): show top playlist download state with the shared helper",
         "🔧 fix(playlist): show auto playlist download state with the shared helper",
         "🔧 fix(playlist): show online playlist download state with the shared helper",
         "🔧 fix(playlist): show local playlist download state with the shared helper",
         "🔧 fix(album): show downloading while any track of the album is in progress",
-        "🔧 fix(downloads): keep download state in sync and record completed downloads with their finish time",
-        "🔧 fix(settings): open integrations from search and settings without a crash",
-        "🔧 fix(scrobble): scrobble queue and shuffle tracks and local media",
-        "🔧 fix(spotify): allow only web pages in the Spotify import web view",
-        "🔧 fix(login): block file and content access in the sign-in web view",
-        "🔧 fix(export): run FFmpeg with an argument list instead of a shell string",
-        "🔧 fix(links): encode deep link ids before they become navigation routes",
-        "🔧 fix(auto): keep covers in memory so the first metadata update already carries them",
-        "🔧 fix(player): keep playing after the app is closed by default",
-        "🔧 fix: compile error in the database wrapper, clean artist names, car-connect autoplay, addon track ids; version 1.4.4"
+        "🔧 fix(downloads): keep download state in sync and record completed downloads with their finish time"
+      ]
+    },
+    {
+      "title": "Docs",
+      "items": [
+        "✨ docs: document Shraddha backend and custom API routing"
       ]
     },
     {
       "title": "Chore",
       "items": [
-        "✨ Add missing seek button string resources for release build",
+        "✨ build(app): add optional SHRADDHA_BACKEND_URL build config field",
         "📦 build: register domain and DSP modules",
-        "✨ feat(audio): add audio DSP module and dependencies",
-        "📦 chore: bump version to 1.4.8 (versionCode 169)"
+        "✨ feat(audio): add audio DSP module and dependencies"
       ]
     }
   ]
