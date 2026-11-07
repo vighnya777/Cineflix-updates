@@ -24,13 +24,13 @@
     {
       "title": "Fixes",
       "items": [
+        "🔧 Fix Shraddha backend 'not configured' in release builds",
         "🔧 fix(security): exclude encrypted Shraddha token store from backups",
         "🔧 fix(playlist): show top playlist download state with the shared helper",
         "🔧 fix(playlist): show auto playlist download state with the shared helper",
         "🔧 fix(playlist): show online playlist download state with the shared helper",
         "🔧 fix(playlist): show local playlist download state with the shared helper",
-        "🔧 fix(album): show downloading while any track of the album is in progress",
-        "🔧 fix(downloads): keep download state in sync and record completed downloads with their finish time"
+        "🔧 fix(album): show downloading while any track of the album is in progress"
       ]
     },
     {
