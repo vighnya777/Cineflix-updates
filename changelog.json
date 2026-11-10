@@ -5,12 +5,14 @@
     {
       "title": "What's New",
       "items": [
+        "✨ Add animated profile ring to top bar account button",
         "• Remove duplicate SeekButtonTarget.kt from app module"
       ]
     },
     {
       "title": "Fixes",
       "items": [
+        "🔧 Fix Google sign-in flicker by restoring stable WebView login flow",
         "🔧 feat: Echo-style settings sheet and section headers; Google login flicker fix; CI daemon stop",
         "🔧 fix: Google login WebView flicker; stop Gradle daemons before release build",
         "🔧 fix: stop Gradle daemons before release build; AI Hub avatars, Create from Taste, Wrapped entry",
@@ -25,15 +27,13 @@
         "🔧 fix(playback): adaptive crossfade pre-arm, DAC guard and safer fade loop",
         "🔧 fix(login): merge sign-in flow fixes and drop forced app restart",
         "🔧 build: compile against SDK 37 and add signed or debug CI logic",
-        "🔧 Fix Echo branding in Wrapped share output and make the pure Kotlin canvas modules use explicit Kotlin JVM plugin declarations so Gradle resolves Kotlin build tool classpath reliably.",
-        "🔧 fix: align Gradle and Android SDK with working build",
-        "🔧 fix: resolve Android SDK 37 build failure",
-        "🔧 fix(build): compile against SDK 37 and add playback cutoff recovery"
+        "🔧 Fix Echo branding in Wrapped share output and make the pure Kotlin canvas modules use explicit Kotlin JVM plugin declarations so Gradle resolves Kotlin build tool classpath reliably."
       ]
     },
     {
       "title": "Chore",
       "items": [
+        "• Align settings sheet layout to match standard spacing",
         "✨ feat: AI Hub avatars, Create from Taste, Cineflix Wrapped entry",
         "📦 build: align Gradle build system with the reference build",
         "📦 build: declare the Kotlin JVM plugin without a version in canvas modules",
