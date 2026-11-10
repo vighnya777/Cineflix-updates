@@ -6,13 +6,13 @@
       "title": "What's New",
       "items": [
         "• Remove duplicate SeekButtonTarget.kt from app module",
-        "• Route playback through InnerTubeX with media headers",
-        "✨ Add player client headers, chunked data source and podcasts view model"
+        "• Route playback through InnerTubeX with media headers"
       ]
     },
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix: Google login WebView flicker; stop Gradle daemons before release build",
         "🔧 fix: stop Gradle daemons before release build; AI Hub avatars, Create from Taste, Wrapped entry",
         "🔧 fix(ci): Maven Central mirror + Gradle cache to avoid Robolectric 429",
         "🔧 fix(shraddha): sanitize recommend auto_play; align router blank-URL notice test",
