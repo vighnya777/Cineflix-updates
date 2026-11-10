@@ -7,13 +7,13 @@
       "items": [
         "• Remove duplicate SeekButtonTarget.kt from app module",
         "• Route playback through InnerTubeX with media headers",
-        "✨ Add player client headers, chunked data source and podcasts view model",
-        "✨ Add bottom playlist screen, library entries and settings toggle"
+        "✨ Add player client headers, chunked data source and podcasts view model"
       ]
     },
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix: stop Gradle daemons before release build; AI Hub avatars, Create from Taste, Wrapped entry",
         "🔧 fix(ci): Maven Central mirror + Gradle cache to avoid Robolectric 429",
         "🔧 fix(shraddha): sanitize recommend auto_play; align router blank-URL notice test",
         "🔧 fix(tests): force real org.json on unit-test classpath",
@@ -28,13 +28,13 @@
         "🔧 Fix Echo branding in Wrapped share output and make the pure Kotlin canvas modules use explicit Kotlin JVM plugin declarations so Gradle resolves Kotlin build tool classpath reliably.",
         "🔧 fix: align Gradle and Android SDK with working build",
         "🔧 fix: resolve Android SDK 37 build failure",
-        "🔧 fix(build): compile against SDK 37 and add playback cutoff recovery",
-        "✨ Add innertubex dependency for stream resolver"
+        "🔧 fix(build): compile against SDK 37 and add playback cutoff recovery"
       ]
     },
     {
       "title": "Chore",
       "items": [
+        "✨ feat: AI Hub avatars, Create from Taste, Cineflix Wrapped entry",
         "📦 build: align Gradle build system with the reference build",
         "📦 build: declare the Kotlin JVM plugin without a version in canvas modules",
         "📦 Use checksum-verified Gradle mirror on main",
