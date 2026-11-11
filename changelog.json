@@ -15,6 +15,8 @@
     {
       "title": "Fixes",
       "items": [
+        "🔧 fix(login): finalize Google login WebView layout",
+        "🔧 fix(login): improve Google login WebView keyboard rendering",
         "🔧 Fix missing layout import in login screen",
         "🔧 Fix Google sign-in flicker by separating top bar and deferring WebView creation",
         "🔧 Fix Google sign-in flicker by restoring stable WebView login flow",
@@ -28,9 +30,7 @@
         "🔧 fix the build issue",
         "🔧 fix(ci): harden Gradle retry classification, input handling, and permissions",
         "🔧 Fix app unit test compilation and hidden quick-pick filter",
-        "🔧 Fix APK build and unit test failures",
-        "🔧 fix(playback): adaptive crossfade pre-arm, DAC guard and safer fade loop",
-        "🔧 fix(login): merge sign-in flow fixes and drop forced app restart"
+        "🔧 Fix APK build and unit test failures"
       ]
     },
     {
