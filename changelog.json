@@ -7,7 +7,7 @@
       "items": [
         "docs(readme): refresh Cineflix branding and documentation",
         "Update LoginScreen.kt",
-        "fix(player): restore Echo album art and previous-item logic"
+        "fix(ota): correct README version replacement regex"
       ]
     },
     {
@@ -20,8 +20,7 @@
         "Add animated profile ring to top bar account button",
         "build: align Gradle build system with the reference build",
         "Add player client headers, chunked data source and podcasts view model",
-        "Add bottom playlist screen, library entries and settings toggle",
-        "Add innertubex dependency for stream resolver"
+        "Add bottom playlist screen, library entries and settings toggle"
       ]
     },
     {
@@ -35,6 +34,7 @@
     {
       "title": "Bug Fixes",
       "items": [
+        "fix(ota): correct README version replacement regex",
         "fix(player): restore Echo album art and previous-item logic",
         "feat(release): add AI-powered release notes",
         "fix(urls): update Cineflix website links",

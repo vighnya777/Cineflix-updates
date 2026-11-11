@@ -146,3 +146,12 @@ Suggests music for your mood.
 **Cineflix × Shraddha AI**
 
 </div>
+
+## Current target release
+
+| Field | Value |
+|-------|--------|
+| Latest tag | **v1.4.8** |
+| App versionName | 1.4.8 |
+| versionCode | 169 |
+
