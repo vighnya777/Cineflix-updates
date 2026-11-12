@@ -186,8 +186,6 @@ Shraddha AI uses a separate backend service.
 - Custom API fallback where configured
 - Separate backend and Android application architecture
 
-**Backend:** [Shraddha Backend Repository](https://github.com/vighnya777/shraddha-backend)
-
 <sub>Available actions depend on supported Cineflix controls, connected services, backend availability and music sources. Shraddha does not claim unrestricted control over Android or every app screen.</sub>
 
 ---
