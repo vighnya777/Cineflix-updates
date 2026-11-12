@@ -1,5 +1,5 @@
 {
-  "description": "Cineflix v1.4.8",
+  "description": "Cineflix v1.4.9",
   "image": "",
   "changelog": [
     {
@@ -19,8 +19,7 @@
         "feat(search): redesign search page with Apple Music browse grid and Material You pill bar",
         "Add animated profile ring to top bar account button",
         "build: align Gradle build system with the reference build",
-        "Add player client headers, chunked data source and podcasts view model",
-        "Add bottom playlist screen, library entries and settings toggle"
+        "Add player client headers, chunked data source and podcasts view model"
       ]
     },
     {
@@ -70,6 +69,7 @@
     {
       "title": "Internal",
       "items": [
+        "chore(release): bump version to 1.4.9 (170)",
         "ci: allow manual debug APK builds without publishing",
         "build: declare the Kotlin JVM plugin without a version in canvas modules",
         "ci: install API 37 as platforms;android-37.0 with channel fallback",
