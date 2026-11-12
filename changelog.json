@@ -3,48 +3,80 @@
   "image": "",
   "changelog": [
     {
-      "title": "What's New",
+      "title": "Highlights",
       "items": [
-        "✨ feat(i18n): add Bengali localization",
-        "✨ feat(release): add AI-powered release notes",
-        "✨ feat(player): improve playback interactions",
-        "✨ feat(auth): improve login screen",
-        "🎨 Update LoginScreen.kt",
-        "✨ feat(search): redesign search page with Apple Music browse grid and Material You pill bar",
-        "• Hide mini player on login and keep login WebView inset constant",
-        "✨ Add animated profile ring to top bar account button"
+        "feat(i18n): add Bengali localization",
+        "recovery gone features",
+        "fix(playback): preserve background playback when app is dismissed"
       ]
     },
     {
-      "title": "Fixes",
+      "title": "New Features",
       "items": [
-        "🔧 fix(android): resolve Kotlin compilation errors",
-        "🔧 fix(bugs): known bugs",
-        "🔧 fix(discord): handle gateway websocket failures cleanly",
-        "🔧 fix(lyrics): merge syllables into complete words",
-        "🔧 fix(ota): correct README version replacement regex",
-        "🔧 fix(player): restore Echo album art and previous-item logic",
-        "🔧 fix(urls): update Cineflix website links",
-        "🔧 fix(ui): refine song menu behavior",
-        "🔧 fix(workmanager): configure safe initialization",
-        "🔧 fix(login): finalize Google login WebView layout",
-        "🔧 fix(login): improve Google login WebView keyboard rendering",
-        "🔧 Fix missing layout import in login screen",
-        "🔧 Fix Google sign-in flicker by separating top bar and deferring WebView creation"
+        "feat(i18n): add Bengali localization",
+        "docs(readme): refresh Cineflix branding and documentation",
+        "feat(player): improve playback interactions",
+        "feat(auth): improve login screen",
+        "feat(search): redesign search page with Apple Music browse grid and Material You pill bar",
+        "Add animated profile ring to top bar account button",
+        "build: align Gradle build system with the reference build"
       ]
     },
     {
-      "title": "Docs",
+      "title": "Improvements",
       "items": [
-        "📝 docs(readme): refresh Cineflix branding and documentation",
-        "📝 docs(readme): refresh Cineflix branding and documentation"
+        "recovery gone features",
+        "Update LoginScreen.kt",
+        "Hide mini player on login and keep login WebView inset constant",
+        "Align settings sheet layout to match standard spacing"
       ]
     },
     {
-      "title": "Chore",
+      "title": "Bug Fixes",
       "items": [
-        "📦 Update build.gradle.kts",
-        "📦 chore(release): bump version to 1.4.9 (170)"
+        "fix(playback): preserve background playback when app is dismissed",
+        "fix(android): resolve Kotlin compilation errors",
+        "fix(bugs): known bugs",
+        "fix(discord): handle gateway websocket failures cleanly",
+        "fix(lyrics): merge syllables into complete words",
+        "fix(ota): correct README version replacement regex",
+        "fix(player): restore Echo album art and previous-item logic",
+        "feat(release): add AI-powered release notes",
+        "fix(urls): update Cineflix website links",
+        "fix(ui): refine song menu behavior",
+        "fix(workmanager): configure safe initialization",
+        "fix(login): finalize Google login WebView layout",
+        "fix(login): improve Google login WebView keyboard rendering",
+        "Fix missing layout import in login screen",
+        "Fix Google sign-in flicker by separating top bar and deferring WebView creation",
+        "Fix Google sign-in flicker by restoring stable WebView login flow",
+        "feat: Echo-style settings sheet and section headers; Google login flicker fix; CI daemon stop",
+        "fix: Google login WebView flicker; stop Gradle daemons before release build",
+        "fix: stop Gradle daemons before release build; AI Hub avatars, Create from Taste, Wrapped entry",
+        "Remove duplicate SeekButtonTarget.kt from app module",
+        "fix(ci): Maven Central mirror + Gradle cache to avoid Robolectric 429",
+        "fix(shraddha): sanitize recommend auto_play; align router blank-URL notice test",
+        "fix(tests): force real org.json on unit-test classpath",
+        "fix(tests): resolve Shraddha JSON unit test failures",
+        "fix the build issue",
+        "Fix app unit test compilation and hidden quick-pick filter",
+        "Fix APK build and unit test failures",
+        "ci: retry Gradle on transient download failures",
+        "ci: stop installing platform 37 through setup-android",
+        "fix(playback): adaptive crossfade pre-arm, DAC guard and safer fade loop",
+        "fix(login): merge sign-in flow fixes and drop forced app restart",
+        "Fix Echo branding in Wrapped share output and make the pure Kotlin canvas modules use explicit Kotlin JVM plugin declarations so Gradle resolves Kotlin build tool classpath reliably."
+      ]
+    },
+    {
+      "title": "Internal",
+      "items": [
+        "Update build.gradle.kts",
+        "chore(release): bump version to 1.4.9 (170)",
+        "ci: allow manual debug APK builds without publishing",
+        "build: declare the Kotlin JVM plugin without a version in canvas modules",
+        "ci: install API 37 as platforms;android-37.0 with channel fallback",
+        "ci: install platform 37 with the current sdkmanager across SDK channels"
       ]
     }
   ]

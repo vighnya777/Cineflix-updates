@@ -313,3 +313,12 @@ Cineflix brings music, technology and intelligent interaction into one connected
 **Your Music. Your Vibe. Your AI.**
 
 </div>
+
+## Current target release
+
+| Field | Value |
+|-------|--------|
+| Latest tag | **v1.4.9** |
+| App versionName | 1.4.9 |
+| versionCode | 170 |
+
