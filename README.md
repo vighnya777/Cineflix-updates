@@ -7,7 +7,7 @@
 <a href="https://github.com/vighnya777/Cineflix-updates/releases/latest">
 <img src="https://img.shields.io/badge/DOWNLOAD-CINEFLIX-7C3AED?style=for-the-badge&logo=android&logoColor=white" alt="Download Cineflix"/>
 </a>
-<a href="https://github.com/vighnya777/Cineflix-music-main">
+<a href="https://github.com/vighnya777/Cineflix-updates-main">
 <img src="https://img.shields.io/badge/SOURCE-OPEN%20SOURCE-18181B?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
 </a>
 
@@ -226,7 +226,7 @@ Download the latest available APK from the official releases page. Choose the ap
 
 | Resource | Link |
 |---|---|
-| Android Application | [Cineflix Source](https://github.com/vighnya777/Cineflix-music-main) |
+| Android Application | [Cineflix Source](https://github.com/vighnya777/Cineflix-updates-main) |
 | OTA Updates | [Cineflix Updates](https://github.com/vighnya777/Cineflix-updates) |
 | Latest Download | [Latest Release](https://github.com/vighnya777/Cineflix-updates/releases/latest) |
 | Shraddha Backend | [Backend Repository](https://github.com/vighnya777/shraddha-backend) |
