@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/DOWNLOAD-CINEFLIX-7C3AED?style=for-the-badge&logo=android&logoColor=white" alt="Download Cineflix"/>
 </a>
 <a href="https://github.com/vighnya777/Cineflix-updates">
-<img src="https://img.shields.io/badge/SOURCE-OPEN%20SOURCE-18181B?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+<img src="https://img.shields.io/badge-SOURCE-OPEN%20SOURCE-18181B?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
 </a>
 
 <br/><br/>
@@ -19,7 +19,7 @@
 
 **An intelligent music experience, designed around you.**
 
-[Explore Features](#-the-cineflix-experience) · [Meet Shraddha AI](#-meet-shraddha-ai) · [Download](https://github.com/vighnya777/Cineflix-updates/releases/latest)
+[Explore Features](#-the-cineflix-experience) · [Meet Shraddha AI](#-meet-shraddha-ai) · [Screenshots](#-screenshots) · [Download](https://github.com/vighnya777/Cineflix-updates/releases/latest)
 
 </div>
 
@@ -32,6 +32,34 @@
 Discover new tracks, enjoy immersive playback, follow synchronized lyrics, manage your offline library, and interact with your music through **Shraddha AI**.
 
 Built to bring music discovery, intelligent assistance, and playback personalization together in one Android experience.
+
+## 📸 Screenshots
+
+Explore the Cineflix interface and listening experience.
+
+### Mobile Experience
+
+<div align="center">
+<img src="Screenshots/sc_1.png" width="32%" alt="Cineflix mobile screenshot 1"/>
+<img src="Screenshots/sc_2.png" width="32%" alt="Cineflix mobile screenshot 2"/>
+<img src="Screenshots/sc_3.png" width="32%" alt="Cineflix mobile screenshot 3"/>
+<br/>
+<img src="Screenshots/sc_4.png" width="32%" alt="Cineflix mobile screenshot 4"/>
+<img src="Screenshots/sc_5.png" width="32%" alt="Cineflix mobile screenshot 5"/>
+<img src="Screenshots/sc_6.png" width="32%" alt="Cineflix mobile screenshot 6"/>
+</div>
+
+### Desktop Experience
+
+<div align="center">
+<img src="Screenshots/Desktop-1.png" width="49%" alt="Cineflix desktop screenshot 1"/>
+<img src="Screenshots/Desktop-2.png" width="49%" alt="Cineflix desktop screenshot 2"/>
+<br/>
+<img src="Screenshots/Desktop-3.png" width="49%" alt="Cineflix desktop screenshot 3"/>
+<img src="Screenshots/Desktop-4.png" width="49%" alt="Cineflix desktop screenshot 4"/>
+</div>
+
+---
 
 ## ✨ The Cineflix Experience
 
@@ -226,7 +254,7 @@ Download the latest available APK from the official releases page. Choose the ap
 
 | Resource | Link |
 |---|---|
-| Android Application | [Cineflix Source](https://github.com/vighnya777/Cineflix-updates) |
+| Android Application | [Cineflix Source](https://github.com/vighnya777/Cineflix-music-main) |
 | OTA Updates | [Cineflix Updates](https://github.com/vighnya777/Cineflix-updates) |
 | Latest Download | [Latest Release](https://github.com/vighnya777/Cineflix-updates/releases/latest) |
 | Shraddha Backend | [Backend Repository](https://github.com/vighnya777/shraddha-backend) |
@@ -263,12 +291,3 @@ Cineflix brings music, technology and intelligent interaction into one connected
 **Your Music. Your Vibe. Your AI.**
 
 </div>
-
-## Current target release
-
-| Field | Value |
-|-------|--------|
-| Latest tag | **v1.4.9** |
-| App versionName | 1.4.9 |
-| versionCode | 170 |
-
