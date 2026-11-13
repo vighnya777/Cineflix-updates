@@ -5,7 +5,7 @@
     {
       "title": "Highlights",
       "items": [
-        "ui: polish Shraddha AI empty state and composer",
+        "feat(shraddha): confirm before opening links in chat",
         "recovery gone features",
         "fix(ui): stop Shraddha composer jump when song starts playing"
       ]
@@ -13,6 +13,7 @@
     {
       "title": "New Features",
       "items": [
+        "feat(shraddha): confirm before opening links in chat",
         "ui: polish Shraddha AI empty state and composer",
         "feat(i18n): add Bengali localization",
         "docs(readme): refresh Cineflix branding and documentation",
@@ -75,8 +76,7 @@
         "Update build.gradle.kts",
         "chore(release): bump version to 1.4.9 (170)",
         "ci: allow manual debug APK builds without publishing",
-        "build: declare the Kotlin JVM plugin without a version in canvas modules",
-        "ci: install API 37 as platforms;android-37.0 with channel fallback"
+        "build: declare the Kotlin JVM plugin without a version in canvas modules"
       ]
     }
   ]
