@@ -7,7 +7,7 @@
       "items": [
         "feat(i18n): add Bengali localization",
         "recovery gone features",
-        "fix(playback): preserve background playback when app is dismissed"
+        "fix: make LibraryFilter when exhaustive (SPOTIFY + PODCASTS)"
       ]
     },
     {
@@ -34,6 +34,9 @@
     {
       "title": "Bug Fixes",
       "items": [
+        "fix: make LibraryFilter when exhaustive (SPOTIFY + PODCASTS)",
+        "fix(discord,lyrics): gateway fail-fast and KPoe word merging",
+        "fix(discord): fail fast and clean up when the gateway websocket fails",
         "fix(playback): preserve background playback when app is dismissed",
         "fix(android): resolve Kotlin compilation errors",
         "fix(bugs): known bugs",
@@ -62,10 +65,7 @@
         "Fix app unit test compilation and hidden quick-pick filter",
         "Fix APK build and unit test failures",
         "ci: retry Gradle on transient download failures",
-        "ci: stop installing platform 37 through setup-android",
-        "fix(playback): adaptive crossfade pre-arm, DAC guard and safer fade loop",
-        "fix(login): merge sign-in flow fixes and drop forced app restart",
-        "Fix Echo branding in Wrapped share output and make the pure Kotlin canvas modules use explicit Kotlin JVM plugin declarations so Gradle resolves Kotlin build tool classpath reliably."
+        "ci: stop installing platform 37 through setup-android"
       ]
     },
     {
