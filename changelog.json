@@ -5,7 +5,7 @@
     {
       "title": "Highlights",
       "items": [
-        "feat(i18n): add Bengali localization",
+        "ui: polish Shraddha AI empty state and composer",
         "recovery gone features",
         "fix: make LibraryFilter when exhaustive (SPOTIFY + PODCASTS)"
       ]
@@ -13,6 +13,7 @@
     {
       "title": "New Features",
       "items": [
+        "ui: polish Shraddha AI empty state and composer",
         "feat(i18n): add Bengali localization",
         "docs(readme): refresh Cineflix branding and documentation",
         "feat(player): improve playback interactions",
@@ -64,8 +65,7 @@
         "fix the build issue",
         "Fix app unit test compilation and hidden quick-pick filter",
         "Fix APK build and unit test failures",
-        "ci: retry Gradle on transient download failures",
-        "ci: stop installing platform 37 through setup-android"
+        "ci: retry Gradle on transient download failures"
       ]
     },
     {
