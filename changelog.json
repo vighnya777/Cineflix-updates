@@ -7,7 +7,7 @@
       "items": [
         "ui: polish Shraddha AI empty state and composer",
         "recovery gone features",
-        "fix: make LibraryFilter when exhaustive (SPOTIFY + PODCASTS)"
+        "fix(ui): stop Shraddha composer jump when song starts playing"
       ]
     },
     {
@@ -35,6 +35,7 @@
     {
       "title": "Bug Fixes",
       "items": [
+        "fix(ui): stop Shraddha composer jump when song starts playing",
         "fix: make LibraryFilter when exhaustive (SPOTIFY + PODCASTS)",
         "fix(discord,lyrics): gateway fail-fast and KPoe word merging",
         "fix(discord): fail fast and clean up when the gateway websocket fails",
@@ -75,8 +76,7 @@
         "chore(release): bump version to 1.4.9 (170)",
         "ci: allow manual debug APK builds without publishing",
         "build: declare the Kotlin JVM plugin without a version in canvas modules",
-        "ci: install API 37 as platforms;android-37.0 with channel fallback",
-        "ci: install platform 37 with the current sdkmanager across SDK channels"
+        "ci: install API 37 as platforms;android-37.0 with channel fallback"
       ]
     }
   ]
