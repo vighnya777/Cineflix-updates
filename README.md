@@ -318,7 +318,7 @@ Cineflix brings music, technology and intelligent interaction into one connected
 
 | Field | Value |
 |-------|--------|
-| Latest tag | **v1.4.9** |
-| App versionName | 1.4.9 |
-| versionCode | 170 |
+| Latest tag | **v1.5.0** |
+| App versionName | 1.5.0 |
+| versionCode | 171 |
 
