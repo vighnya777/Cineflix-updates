@@ -7,7 +7,7 @@
       "items": [
         "feat(navigation): add dedicated Podcast tab, auto-loading categories, and reorganize More Options",
         "Update release.yml",
-        "fix(playback): enhance audio stream resolution and cutoff guard robustness"
+        "fix(ci): configure Google Maven Central mirror for Robolectric unit tests"
       ]
     },
     {
@@ -47,6 +47,7 @@
     {
       "title": "Bug Fixes",
       "items": [
+        "fix(ci): configure Google Maven Central mirror for Robolectric unit tests",
         "fix(playback): enhance audio stream resolution and cutoff guard robustness",
         "fix(deeplink): resolve cineflix:// custom scheme route parsing in MainActivity",
         "fix(ui): stop Shraddha composer jump when song starts playing",
@@ -66,8 +67,7 @@
         "fix(workmanager): configure safe initialization",
         "fix(login): finalize Google login WebView layout",
         "fix(login): improve Google login WebView keyboard rendering",
-        "Fix missing layout import in login screen",
-        "Fix Google sign-in flicker by separating top bar and deferring WebView creation"
+        "Fix missing layout import in login screen"
       ]
     },
     {
