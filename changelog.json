@@ -5,14 +5,17 @@
     {
       "title": "Highlights",
       "items": [
-        "feat(navigation): add dedicated Podcast tab, auto-loading categories, and reorganize More Options",
+        "feat(ui): add scroll-collapsing bottom navbar with inline MiniPlayer",
         "Update release.yml",
-        "fix(ci): configure Google Maven Central mirror for Robolectric unit tests"
+        "fix(sync): fix liked songs sync order, podcast hydration, and network crash handling"
       ]
     },
     {
       "title": "New Features",
       "items": [
+        "feat(ui): add scroll-collapsing bottom navbar with inline MiniPlayer",
+        "feat(connect): add Cineflix Connect LAN sync and audio output menu",
+        "feat(ai-hub): add API Route and Opper AI providers with latest model presets",
         "feat(navigation): add dedicated Podcast tab, auto-loading categories, and reorganize More Options",
         "Release Cineflix v1.5.0: Music Flow, Song DNA, Haptics, Spotify Login & Deep Link Fixes",
         "feat(innertube): add TasteSignals parsing and home/appearance UI components",
@@ -31,22 +34,20 @@
         "feat(i18n): add Bengali localization",
         "docs(readme): refresh Cineflix branding and documentation",
         "feat(player): improve playback interactions",
-        "feat(auth): improve login screen",
-        "feat(search): redesign search page with Apple Music browse grid and Material You pill bar"
+        "feat(auth): improve login screen"
       ]
     },
     {
       "title": "Improvements",
       "items": [
         "Update release.yml",
-        "recovery gone features",
-        "Update LoginScreen.kt",
-        "Hide mini player on login and keep login WebView inset constant"
+        "recovery gone features"
       ]
     },
     {
       "title": "Bug Fixes",
       "items": [
+        "fix(sync): fix liked songs sync order, podcast hydration, and network crash handling",
         "fix(ci): configure Google Maven Central mirror for Robolectric unit tests",
         "fix(playback): enhance audio stream resolution and cutoff guard robustness",
         "fix(deeplink): resolve cineflix:// custom scheme route parsing in MainActivity",
@@ -65,14 +66,13 @@
         "fix(urls): update Cineflix website links",
         "fix(ui): refine song menu behavior",
         "fix(workmanager): configure safe initialization",
-        "fix(login): finalize Google login WebView layout",
-        "fix(login): improve Google login WebView keyboard rendering",
-        "Fix missing layout import in login screen"
+        "fix(login): finalize Google login WebView layout"
       ]
     },
     {
       "title": "Internal",
       "items": [
+        "refactor(ui): refine Home, Library, Artist, and Settings layouts",
         "Update build.gradle.kts",
         "chore(release): bump version to 1.5.1 (172)",
         "chore(release): bump version to 1.4.9 (170)"
